@@ -1,0 +1,37 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chat App",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "express"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "author": "Jirayu chinnawong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.1",
+    "momentjs": "^2.0.0",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jirayuch01/ChatApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jirayuch01/ChatApp/issues"
+  },
+  "homepage": "https://github.com/jirayuch01/ChatApp#readme"
+}
